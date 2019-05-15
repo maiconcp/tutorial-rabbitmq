@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\maiconpereira\\source\\repos\\TesteRabbitMQ\\ConsumerConsole\\ConsumerConsole.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\maiconpereira\\source\\repos\\TesteRabbitMQ\\ConsumerConsole\\ConsumerConsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\maiconpereira\\source\\repos\\TesteRabbitMQ\\ConsumerConsole\\ConsumerConsole.csproj",
+        "projectName": "ConsumerConsole",
+        "projectPath": "C:\\Users\\maiconpereira\\source\\repos\\TesteRabbitMQ\\ConsumerConsole\\ConsumerConsole.csproj",
+        "packagesPath": "C:\\Users\\maiconpereira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maiconpereira\\source\\repos\\TesteRabbitMQ\\ConsumerConsole",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\maiconpereira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
